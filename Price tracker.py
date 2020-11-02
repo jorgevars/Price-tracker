@@ -7,6 +7,7 @@ import os
 import pandas as pd
 import requests
 import smtplib
+from time import sleep
 
 
 # %%
@@ -108,6 +109,11 @@ def check_price(list_number):
 
 
 # %%
-for list_number in range(data['URL'].shape[0]):
-    check_price(list_number)
-print("programa finalizado :)")
+while True:
+    for list_number in range(data['URL'].shape[0]):
+        check_price(list_number)
+    print("programa finalizado :)")
+    #Repetir script cada hora
+    #sleep(3600)
+    #Repetir script cada día
+    sleep(86400)
