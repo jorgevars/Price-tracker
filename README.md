@@ -13,6 +13,11 @@ These are the pages which this script works
 -www.bestbuy.com.mx
 -www.mercadolibre.com.mx
 
-Sorry for my english in advance
+There is two CSV files. 
+
+Price tracker.csv. You need to introduce your mail and password (if you use gmail, I recommend you to see [this](https://support.google.com/mail/answer/185833?hl=en-GB) tutorial.
+ids.csv It is the file that stores all the ids, classes to lookup while scrapping with beautifulsoup.
+
+Sorry for my english in advance :3
 
 Best regards!!
